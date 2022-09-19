@@ -275,6 +275,12 @@ function createBottomPanel(view: EditorView): Panel {
     dom.classList.add("bottom-panel");
 
     {
+        const button = dom.appendChild(document.createElement("span"));
+        button.textContent = "☰";
+        button.onclick = () => commandPalette.open(commands);
+    }
+
+    {
         const select = dom.appendChild(document.createElement("span"));
         select.textContent = compartmentDefaults.language.name;
 

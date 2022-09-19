@@ -1,0 +1,29 @@
+{
+  "name": "monomed",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "monomere",
+  "license": "MIT",
+  "dependencies": {
+    "@codemirror/lang-cpp": "^6.0.1",
+    "@codemirror/lang-javascript": "^6.0.2",
+    "@codemirror/lang-python": "^6.0.1",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "codemirror": "^6.0.1",
+    "fuzzysort": "^2.0.1",
+    "rollup": "^2.79.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
+  }
+}
